@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos del menu */
+
+nav {
+  background: #6b4a2f;
+  overflow: hidden;
+}
+
+.logo {
+  width: 360px;
+  margin: 25px auto;
+  text-align: center;
+  color: #6b4a2f;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation li {
+  display: inline;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 15px;
+}
+
+
+/* Estilos de los platos */
+
+.menu ul {
+  text-align: center;
+}
+
+.menu ul li {
+  display: inline;
+  margin: 15px;
+}
