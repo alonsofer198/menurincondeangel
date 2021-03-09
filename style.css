@@ -43,7 +43,9 @@ nav {
 }
 
 .menu ul li {
-  display: inline;
+  color: red;
+  font-size: 18px;
+  display: inline-block;
   margin: 15px;
 }
 
