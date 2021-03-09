@@ -24,6 +24,9 @@ nav {
 .navigation li {
   display: inline;
   margin: 0 10px;
+}
+
+.navigation li a {
   color: #fff;
   font-size: 15px;
 }
@@ -38,4 +41,21 @@ nav {
 .menu ul li {
   display: inline;
   margin: 15px;
+}
+
+/* Contenido */
+
+.contenido {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.nosotros p {
+  float: left;
+  width: 100%;
+  max-width: 520px;
+}
+
+.nosotros img {
+  float: right;
 }
