@@ -23,6 +23,7 @@ nav {
 
 .navigation {
   text-align: center;
+  cursor:pointer;
 }
 
 .navigation li {
