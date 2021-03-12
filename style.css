@@ -39,6 +39,13 @@ nav {
 
 /* Estilos de los platos */
 
+.listapromo {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+
 .menu ul {
   text-align: center;
 }
