@@ -45,6 +45,13 @@ nav {
   margin: 0 auto;
 }
 
+.agregar{
+  float:right;
+}
+
+.precio{
+  float:right;
+}
 
 .menu ul {
   text-align: center;
