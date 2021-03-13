@@ -45,8 +45,27 @@ nav {
   margin: 0 auto;
 }
 
+.listapromo {
+  list-style: none;
+  min-height: 150px;
+}
+
+.listapromo ul {
+  list-style: none;
+}
+
+.listapromo li {
+  clear: both;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+.col-izquierda {
+  float: left;
+}
+
 .col-derecha{
-  float:right;
+  float: right;
 }
 
 .menu ul {
