@@ -80,6 +80,26 @@ nav {
   float: right;
 }
 
+.carrito-pedidos {
+  position: absolute;
+  width: 320px;
+  height: 100vh;
+  right: -320px;
+  bottom: 0;
+  color: #fff;
+  background: #6c4a2fb8;
+  transition: right .25s ease-in-out;
+}
+
+.carrito-pedidos .close {
+  color: #fff;
+  font-size: 16px;
+}
+
+.carrito-pedidos.active {  
+  right: 0;
+}
+
 .menu ul {
   text-align: center;
 }

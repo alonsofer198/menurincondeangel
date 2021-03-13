@@ -57,7 +57,7 @@
 
                 <div class="col-derecha">
                     <div class="precio">S/.25</div>
-                    <button value="ECONOMICO" onclick="agregar_producto(this)" class="agregar">Agregar Pedido</button>
+                    <button value="SUAVE" onclick="agregar_producto(this)" class="agregar">Agregar Pedido</button>
                     
                    
                 </div>
@@ -169,13 +169,29 @@
             </li>
             </ul>
         </div>
+
+        <div class="carrito-pedidos">
+           <div class="close"> <button onclick="cerrar_pedido()">Cerrar</button></div>
+
+        </div>
  
     </body>
 
     <script type="text/javascript">
 
+        function cerrar_pedido() {
+            let pedidos = document.querySelector("div.carrito-pedidos")
+            pedidos.classList.remove("active")
+        }
+
         function agregar_producto(producto) {
-            alert(`Agregaste el plato ${producto.value}`)
+
+            let pedidos = document.querySelector("div.carrito-pedidos")
+            pedidos.classList.add("active")
+
+            let p = document.createElement("div")
+            p.innerHTML = producto.value
+            pedidos.appendChild(p)            
         }
 
     </script>
