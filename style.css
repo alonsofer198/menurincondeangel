@@ -55,6 +55,16 @@ nav {
   overflow: hidden;
 }
 
+.col-imagen {
+  float: left;
+  width: 75px;
+  margin-right: 10px;
+}
+
+.col-imagen img {
+  width: 100%;
+}
+
 .col-izquierda {
   float: left;
 }
