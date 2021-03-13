@@ -41,7 +41,7 @@
                </div>
                <div class="col-derecha">
                     <div class="precio">S/.20</div>
-                    <button class="agregar">Agregar Pedido</button>
+                    <button value="ECONOMICO" onclick="agregar_producto(this)" class="agregar">Agregar Pedido</button>
                </div>
                
             </li>
@@ -170,6 +170,14 @@
         </div>
  
     </body>
+
+    <script type="text/javascript">
+
+        function agregar_producto(producto) {
+            alert(`Agregaste el plato ${producto.value}`)
+        }
+
+    </script>
 
    
         
