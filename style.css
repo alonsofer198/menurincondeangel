@@ -139,5 +139,12 @@ nav {
 
 .container-nosotros{
   width: 100%;
-  max-width: 9 20px;
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.container-comprar{
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
 }
