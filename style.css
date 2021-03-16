@@ -136,3 +136,8 @@ nav {
 .nosotros img {
   float: right;
 }
+
+.container-nosotros{
+  width: 100%;
+  max-width: 9 20px;
+}
