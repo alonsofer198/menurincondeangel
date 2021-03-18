@@ -1,0 +1,20 @@
+[
+  {
+    "id": "leche-de-tigre",
+    "nombre": "Leche de tigre",
+    "categoria": "Entradas marinas",
+    "precio": "12",
+    "disponible": true,
+    "descripcion": "Descripcion de la leche de tigre",
+    "promocion": false
+  },
+  {
+    "id": "jalea-de-pescado",
+    "nombre": "Jalea de pescado",
+    "categoria": "Jaleas",
+    "precio": "20",
+    "disponible": true,
+    "descripcion": "Pescado frito con sarsa de cebolla",
+    "promocion": true
+  }
+]
