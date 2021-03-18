@@ -86,13 +86,12 @@
 
         if(plato.promocion == true) {
           lista_promociones += `<div class="col-3"><div class="row">
-              <div class="col-auto">
-                <img width="150px" src="images/${plato.id}.jpg" >
+              <div class="col-6">
+                <img width="130px" src="images/${plato.id}.jpg" >
               </div>
-              <div class="col-5">
+              <div class="col-6">
                 <div class="tipo-menu">${plato.nombre}</div>
-              </div>
-              <div class="col-4">
+              
                 <div class="precio">S/.${plato.precio}</div>
                 <button type="button" class="btn btn-info btn btn-outline-dark" value="ECONOMICO" onclick="agregar_producto('${plato.id}'')" class="agregar">Agregar Pedido</button>
               </div>
