@@ -15,7 +15,7 @@ const cartaLista = [
     "precio": "15",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "causa-pulpa-de-cangrejo",
@@ -24,7 +24,7 @@ const cartaLista = [
     "precio": "15",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "choritos-a-la-chalaca",
@@ -33,7 +33,7 @@ const cartaLista = [
     "precio": "18",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "jalea-de-pescado",
@@ -42,7 +42,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "jalea-mixta",
@@ -51,7 +51,7 @@ const cartaLista = [
     "precio": "25",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "chicharron-de-pota",
@@ -87,7 +87,7 @@ const cartaLista = [
     "precio": "25",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "pescado-a-la-plancha",
@@ -96,7 +96,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "pescado-con-salsa-de-champiñones",
@@ -105,7 +105,7 @@ const cartaLista = [
     "precio": "25",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "pescado-con-salsa-de-ajo",
@@ -114,7 +114,7 @@ const cartaLista = [
     "precio": "25",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "arroz-con-pato",
@@ -123,7 +123,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "sopa-seca-con-carapulcra",
@@ -132,7 +132,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "ceviche-de-pato",
@@ -141,7 +141,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "frejol-con-seco-de-cabrito",
@@ -150,7 +150,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "pollada",
@@ -159,7 +159,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "pollo-al-cilindro",
@@ -168,7 +168,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "chancho-al-cilindro",
@@ -177,7 +177,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "tallarines-verdes-con-bistec",
@@ -195,7 +195,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "lomo-saltado-de-carne",
@@ -222,7 +222,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "4-colores",
@@ -231,7 +231,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "Ceviche + tallarines + huancaina + chanfainita",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "torta-de-chocolate",
@@ -249,7 +249,7 @@ const cartaLista = [
     "precio": "60",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "empanada-grande",
@@ -258,7 +258,7 @@ const cartaLista = [
     "precio": "3.50",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "empanada-mediana",
@@ -267,7 +267,7 @@ const cartaLista = [
     "precio": "2.50",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "empanada-chica",
@@ -276,7 +276,7 @@ const cartaLista = [
     "precio": "1.50",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "bocaditos",
@@ -285,7 +285,7 @@ const cartaLista = [
     "precio": "0.50",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "alfajores",
@@ -294,7 +294,7 @@ const cartaLista = [
     "precio": "12",
     "disponible": true,
     "descripcion": "10 Alfajores",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "tartaleta-de-fresa",
@@ -303,7 +303,7 @@ const cartaLista = [
     "precio": "5.50",
     "disponible": true,
     "descripcion": "Porcion",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "pye-de-limon",
@@ -312,7 +312,7 @@ const cartaLista = [
     "precio": "5.50",
     "disponible": true,
     "descripcion": "Porcion",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "pye-de-maracuya",
@@ -321,6 +321,6 @@ const cartaLista = [
     "precio": "5.50",
     "disponible": true,
     "descripcion": "Porcion",
-    "promocion": true
+    "promocion": false
   }
 ]
