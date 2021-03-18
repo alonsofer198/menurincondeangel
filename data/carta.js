@@ -186,7 +186,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "tallarines-a-la-huancaina-con-lomo-saltado",
@@ -204,7 +204,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "bistec-a-lo-pobre",
@@ -213,7 +213,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "churrasco-a-lo-pobre",
@@ -235,16 +235,16 @@ const cartaLista = [
   },
   {
     "id": "torta-de-chocolate",
-    "nombre": "Torta de chocolate",
+    "nombre": "torta de chocolate",
     "categoria": "Postres",
     "precio": "5.50",
     "disponible": true,
     "descripcion": "Porcion",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "torta-entera",
-    "nombre": "Torta entera",
+    "nombre": "torta entera",
     "categoria": "Postres",
     "precio": "60",
     "disponible": true,
@@ -253,7 +253,7 @@ const cartaLista = [
   },
   {
     "id": "empanada-grande",
-    "nombre": "Empanada grande",
+    "nombre": "empanada grande",
     "categoria": "Postres",
     "precio": "3.50",
     "disponible": true,
