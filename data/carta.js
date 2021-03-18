@@ -1,4 +1,4 @@
-[
+const cartaLista = [
   {
     "id": "leche-de-tigre",
     "nombre": "Leche de tigre",
