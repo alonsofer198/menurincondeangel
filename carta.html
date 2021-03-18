@@ -79,19 +79,6 @@
       let lista_productos = ``
       cartaLista.map(plato => {
 
-        lista_productos += `<div class="row mb-3">
-          <div class="col-auto">
-            <img width="150px" src="images/${plato.id}.jpg" >
-          </div>
-          <div class="col-5">
-            <div class="tipo-menu">${plato.nombre}</div>
-          </div>
-          <div class="col-4">
-            <div class="precio">S/.${plato.precio}</div>
-            <button type="button" class="btn btn-info btn btn-outline-dark" value="ECONOMICO" onclick="agregar_producto('${plato.id}'')" class="agregar">Agregar Pedido</button>
-          </div>
-        </div>`
-
         if(plato.promocion == true) {
           lista_productos += `<div class="row mb-3">
             <div class="col-auto">
@@ -107,7 +94,7 @@
           </div>`
         }
         container.innerHTML = lista_productos
-2e8bf4e30c41c90278c54a425b419e039c00bacc
+
       })
 
 
