@@ -14,7 +14,16 @@
     "categoria": "Jaleas",
     "precio": "20",
     "disponible": true,
-    "descripcion": "Pescado frito con sarsa de cebolla",
+    "descripcion": "Pescado frito con salsa de cebolla",
+    "promocion": true
+  },
+  {
+    "id": "leche-de-tigre",
+    "nombre": "Leche de Tigre",
+    "categoria": "Entradas",
+    "precio": "12",
+    "disponible": true,
+    "descripcion": "Leche de Tigre",
     "promocion": true
   }
 ]
