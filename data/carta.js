@@ -6,7 +6,7 @@ const cartaLista = [
     "precio": "12",
     "disponible": true,
     "descripcion": "Descripcion de la leche de tigre",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "leche-de-pantera",
@@ -60,7 +60,7 @@ const cartaLista = [
     "precio": "15",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "chicharron-de-pescado",
@@ -69,7 +69,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "chicharron-de-calamar",
@@ -78,7 +78,7 @@ const cartaLista = [
     "precio": "25",
     "disponible": true,
     "descripcion": "Solo Calamar",
-    "promocion": true
+    "promocion": false
   },
   {
     "id": "chicharron-mixta",
