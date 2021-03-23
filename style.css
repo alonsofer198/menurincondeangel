@@ -17,10 +17,12 @@ header.fondo-rincon {
   padding-bottom: 8rem;
 }
 
-header.fondo-comprar {
+header.fondo-carta {
   position: relative;
   background-color: #343a40;
   background: url(images/fondobuffet.jpg) no-repeat center center;
+
+  background: url(images/ceviche.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
