@@ -161,3 +161,13 @@ nav {
 .estilo-titulo{
   color: white;
 }
+
+/* Pedidos */
+
+.container-pedidos {
+  position: sticky;
+  bottom: 0;
+  background: black;
+  width: 320px;
+  margin-left: auto;
+}
