@@ -11,7 +11,7 @@ body {
 header.fondo-rincon {
   position: relative;
   background-color: #343a40;
-  background: url(images/fondo.jpeg) no-repeat center center;
+  background: url(images/fondobuffet.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -20,7 +20,7 @@ header.fondo-rincon {
 header.fondo-comprar {
   position: relative;
   background-color: #343a40;
-  background: url(images/fondo.jpeg) no-repeat center center;
+  background: url(images/fondobuffet.jpg) no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;

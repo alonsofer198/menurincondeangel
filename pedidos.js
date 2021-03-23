@@ -18,7 +18,7 @@ function create_promociones() {
             <div class="precio">S/.${plato.precio}</div>
             <div>
               <input id="cantidad_${plato.id}" type="text" value="1" />
-              <button type="button" class="btn btn-info btn btn-outline-dark" value="ECONOMICO" onclick="agregar_producto('${plato.id}')" class="agregar"><i class="bi-alarm"></i></button>
+              <button type="button" class="btn btn-info btn btn-outline-dark" value="ECONOMICO" onclick="agregar_producto('${plato.id}')" class="agregar"><i class="bi bi-cart-plus"></i></button>
             </div>    
           </div>
         </div>
