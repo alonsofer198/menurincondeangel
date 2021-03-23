@@ -82,7 +82,7 @@ function update_seleccion() {
 
   
   productosSeleccionados.map(plato => {
-    lista_seleccion += `<div class="col-3"><div class="row">
+    lista_seleccion += `<div class="col-12"><div class="row">
         <div class="col-6">
           <img width="130px" src="images/${plato.id}.jpg" >
         </div>
