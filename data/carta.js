@@ -294,7 +294,7 @@ const cartaLista = [
     "precio": "12",
     "disponible": true,
     "descripcion": "10 Alfajores",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "tartaleta-de-fresa",
@@ -303,7 +303,7 @@ const cartaLista = [
     "precio": "5.50",
     "disponible": true,
     "descripcion": "Porcion",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "pye-de-limon",
@@ -312,7 +312,7 @@ const cartaLista = [
     "precio": "5.50",
     "disponible": true,
     "descripcion": "Porcion",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "pye-de-maracuya",
@@ -321,6 +321,6 @@ const cartaLista = [
     "precio": "5.50",
     "disponible": true,
     "descripcion": "Porcion",
-    "promocion": false
+    "promocion": true
   }
 ]
