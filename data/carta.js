@@ -6,7 +6,7 @@ const cartaLista = [
     "precio": "12",
     "disponible": true,
     "descripcion": "Descripcion de la leche de tigre",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "leche-de-pantera",
@@ -15,7 +15,7 @@ const cartaLista = [
     "precio": "15",
     "disponible": true,
     "descripcion": "",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "causa-pulpa-de-cangrejo",
@@ -24,7 +24,7 @@ const cartaLista = [
     "precio": "15",
     "disponible": true,
     "descripcion": "",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "choritos-a-la-chalaca",
@@ -33,7 +33,7 @@ const cartaLista = [
     "precio": "18",
     "disponible": true,
     "descripcion": "",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "jalea-de-pescado",
@@ -42,7 +42,7 @@ const cartaLista = [
     "precio": "20",
     "disponible": true,
     "descripcion": "",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "jalea-mixta",
