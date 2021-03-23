@@ -276,7 +276,7 @@ const cartaLista = [
     "precio": "1.50",
     "disponible": true,
     "descripcion": "",
-    "promocion": false
+    "promocion":true
   },
   {
     "id": "bocaditos",
@@ -285,7 +285,7 @@ const cartaLista = [
     "precio": "0.50",
     "disponible": true,
     "descripcion": "",
-    "promocion": false
+    "promocion": true
   },
   {
     "id": "alfajores",
