@@ -15,9 +15,15 @@ body {
 
 .nav-link {
   color: #fff !important;
+    
 }
 
 .nav-link.active {
   background: #45c2d6b0;
   color: #fff !important;
+  
+}
+
+.ul{
+  text-align: right;
 }
