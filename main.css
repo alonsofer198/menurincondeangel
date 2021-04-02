@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&display=swap');
+
+body {
+  font-family: 'Londrina Solid', cursive;
+}
+
+.home-background {
+  background-image: url('https://img1.wsimg.com/isteam/stock/6QmDeDe');
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link.active {
+  background: #45c2d6b0;
+  color: #fff !important;
+}
