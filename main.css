@@ -5,6 +5,7 @@ body {
 }
 
 .home-background {
+  position: relative;
   background-image: url('https://img1.wsimg.com/isteam/stock/6QmDeDe');
   min-height: 90vh;
   background-repeat: no-repeat;
@@ -24,6 +25,15 @@ body {
   
 }
 
-.ul{
-  text-align: right;
+/* Contenedor para los elementos que van a ir en  la portada */
+
+/* banner home */
+
+.banner-home {
+  position: absolute;
+  right: 25px;
+  top: 35vh;
+  width: 300px;
+  padding: 10px;
+  background: #45c2d6b0;
 }
