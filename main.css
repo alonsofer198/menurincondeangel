@@ -14,6 +14,17 @@ body {
   color: #fff;
 }
 
+.menu-container{
+  padding: 40px;
+  position: relative;
+  background-image: url('fondo.jpeg');
+  min-height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
 .nav-link {
   color: #fff !important;
     
@@ -30,6 +41,15 @@ body {
 /* banner home */
 
 .banner-home {
+  position: absolute;
+  right: 25px;
+  top: 35vh;
+  width: 300px;
+  padding: 10px;
+  background: #45c2d6b0;
+}
+
+.banner-menu {
   position: absolute;
   right: 25px;
   top: 35vh;
@@ -95,7 +115,8 @@ h2 {
 .a{
   position: relative;
   height: 50px;
-
+  padding: 10px;
+  margin: 15px;
   font-family: Londrina Solid;
   font-style: normal;
   font-weight: 900;
