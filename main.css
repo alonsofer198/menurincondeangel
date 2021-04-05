@@ -23,6 +23,7 @@ body {
   background-size: cover;
   background-position: center;
   color: #fff;
+  
 }
 
 .nav-link {
@@ -62,18 +63,18 @@ body {
 
 h2 {
   position:relative;
-  
   height: 49px;
-  
   font-family: Londrina Solid;
   font-style: normal;
   font-weight: 900;
   font-size: 41px;
   line-height: 49px;
-  /* identical to box height */
-  
+ /* identical to box height */
   text-align:center;
   color: #4BB072;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  
 }
 
 /*ul{
@@ -92,12 +93,18 @@ h2 {
 
 .segundoboton{
   position:relative;
-  color:white;
+  color:#757571;
   width: 193px;
   height: 45px;
   background: #60B882;
   border-radius: 15px;
 }
+
+.tercerboton{
+  color:#757571;
+  margin: 20px;
+}
+
 
 .textos{
   position: relative;
@@ -111,6 +118,37 @@ h2 {
   text-align: center;
   color: #4BB072;
 }
+
+.textos2{
+  position: relative;
+  height: 50px;
+
+  font-family: Londrina Solid;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 25px;
+  text-align: center;
+  color: #D6664D;
+  ;
+}
+
+.textos3{
+  position: relative;
+  height: 50px;
+
+  font-family: Londrina Solid;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+
+
+
+  color:#A4A4A4;
+}
+
 
 .a{
   position: relative;
