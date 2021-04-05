@@ -37,3 +37,59 @@ body {
   padding: 10px;
   background: #45c2d6b0;
 }
+
+/* PEDIDOS */
+
+h2 {
+  position:relative;
+  width: 600px;
+  height: 49px;
+  
+  font-family: Londrina Solid;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 41px;
+  line-height: 49px;
+  /* identical to box height */
+  
+  text-align:right;
+  color: #4BB072;
+}
+
+/*ul{
+  position: relative;
+  width: 950px;
+  height: 50px;
+
+  font-family: Londrina Solid;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #4BB072;
+}*/
+
+.segundoboton{
+  position:relative;
+  
+  width: 193px;
+  height: 45px;
+  background: #60B882;
+  border-radius: 15px;
+}
+
+.textos{
+  position: relative;
+  width: 950px;
+  height: 50px;
+
+  font-family: Londrina Solid;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #4BB072;
+}
+
