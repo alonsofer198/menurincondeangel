@@ -92,3 +92,15 @@ h2 {
   color: #4BB072;
 }
 
+.a{
+  position: relative;
+  height: 50px;
+
+  font-family: Londrina Solid;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #4BB072;
+}
