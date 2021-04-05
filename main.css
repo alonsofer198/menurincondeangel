@@ -129,9 +129,16 @@ h2 {
 
 .promociones{
   background: green;
+  padding: 20px;
 }
 
 .promo{
   background: white;
   color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.precio{
+  color:green;
 }
