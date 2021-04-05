@@ -18,7 +18,7 @@ body {
   padding: 40px;
   position: relative;
   background-image: url('fondo.jpeg');
-  min-height: 90vh;
+  min-height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -125,4 +125,13 @@ h2 {
   text-align: center;
   color:white;
   background:  #4BB072;
+}
+
+.promociones{
+  background: green;
+}
+
+.promo{
+  background: white;
+  color: black;
 }
