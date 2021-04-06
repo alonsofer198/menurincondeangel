@@ -115,6 +115,15 @@ h2 {
   margin: 20px;
 }
 
+.cuartoboton{
+  color: white;
+  position: absolute;
+width: 130px;
+height: 40px;
+background-color: #D6664D;
+
+}
+
 
 .textos{
   position: relative;
