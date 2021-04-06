@@ -26,6 +26,18 @@ body {
   
 }
 
+.catering-container{
+  padding: 40px;
+  position: relative;
+  background-image: url('fondo2.jpeg');
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: ce nter;
+  color: #fff;
+
+}
+
 .nav-link {
   color: #fff !important;
     
@@ -113,15 +125,34 @@ h2 {
 .tercerboton{
   color:#757571;
   margin: 20px;
+ 
 }
 
 .cuartoboton{
   color: white;
-  position: absolute;
-width: 130px;
-height: 40px;
-background-color: #D6664D;
+  position: relative;
+  width: 130px;
+  height: 40px;
+  background-color: #D6664D;
+  text-align: center;
+}
 
+.quintoboton{
+  color: white;
+  position: relative;
+  width: 234px;
+  height: 41px;
+  background-color: #D6664D;
+  text-align: center;
+  
+}
+
+.sextoboton{
+  color:#FFFFFF;
+  background-color:#61B3CB ;
+  
+  
+ 
 }
 
 
@@ -162,10 +193,21 @@ background-color: #D6664D;
   font-size: 21px;
   line-height: 25px;
   text-align: center;
-
-
-
   color:#A4A4A4;
+}
+
+ /* Nos esforzamos al máximo para brindar un servicio de calidad a todos nuestros clientes. */
+.textos4{
+
+  position: relative;
+  width: 385px;
+  height: 90px;
+  font-family: Londrina Solid;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 25px;
+  color: #FFFFFF;
 }
 
 
@@ -199,4 +241,19 @@ background-color: #D6664D;
 
 .precio{
   color:green;
+}
+
+/* CATERING */
+
+.catering{
+  position: relative;
+  width: 339px;
+  height: 49px;
+  font-family: Londrina Solid;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 41px;
+  line-height: 49px;
+/* identical to box height */
+  color: #FFFFFF;
 }
