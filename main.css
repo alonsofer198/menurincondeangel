@@ -16,6 +16,7 @@ body {
   color: #fff;
 }
 
+/* NUESTRO MENÚ */
 .menu-container{
   padding: 40px;
   position: relative;
@@ -62,6 +63,7 @@ body {
   width: 300px;
   padding: 10px;
   background: #45c2d6b0;
+  text-align: center;
 }
 
 .banner-menu {
@@ -101,36 +103,38 @@ h2 {
   padding: 15vh 0;
 }
 
-/*ul{
-  position: relative;
-  width: 950px;
-  height: 50px;
+/*BOTONES*/
+/* BOTON AZUL */
+.primerboton{
+  position:relative;
+  color:white;
+  width: 193px;
+  height: 45px;
+  background: #18667E;
+  border:none;
+  border-radius: 15px;
+  
+ }
 
-  font-family: Londrina Solid;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 21px;
-  line-height: 25px;
-  text-align: center;
-  color: #4BB072;
-}*/
-
+/* BOTON VERDE */
 .segundoboton{
   position:relative;
   color:white;
   width: 193px;
   height: 45px;
   background: #60B882;
+  border: none;
   border-radius: 15px;
-  
-  
-}
 
+ }
+
+ /* BOTON PLOMO */
 .tercerboton{
   color:#757571;
   margin: 20px;
- 
+
 }
+
 
 .cuartoboton{
   color: white;
@@ -148,20 +152,27 @@ h2 {
   height: 41px;
   background-color: #D6664D;
   text-align: center;
-  
-  
-  
 }
+
 
 .sextoboton{
-  color:#FFFFFF;
+  color:#9b7c7c;
   background-color:#61B3CB ;
-  
-  
+}
+
  
+
+
+.septimoboton{
+  color:#FFFFFF;
+  background-color:#757571 ;
+  border:none;
+  border-radius:15px;
 }
 
 
+/* Completa tu pedido en línea y nos comunicaremos contigo para confirmar tu órden */
+/* O escribenos al whatsapp y tomaremos tu pedido */
 .textos{
   position: relative;
   height: 50px;
@@ -173,6 +184,10 @@ h2 {
   line-height: 25px;
   text-align: center;
   color: #4BB072;
+}
+
+.textos1{
+  color: #3E4F40;
 }
 
 .textos2{
@@ -236,7 +251,7 @@ h2 {
 /*PROMOCIONES*/
 
 .promociones{
-  background: green;
+  background: #49B45A;
   padding: 41px;
   text-align: center;
   
@@ -251,8 +266,9 @@ h2 {
   font-size: 20px;
 }
 
+/*PRECIO*/
 .precio{
-  color:green;
+  color: #6ABC73;
 }
 
 /* CATERING */
