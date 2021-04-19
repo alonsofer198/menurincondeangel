@@ -155,13 +155,15 @@ h2 {
 }
 
 
+
+
 .sextoboton{
   color:#9b7c7c;
   background-color:#61B3CB ;
-}
-
+  
+  
  
-
+}
 
 .septimoboton{
   color:#FFFFFF;
@@ -169,7 +171,6 @@ h2 {
   border:none;
   border-radius:15px;
 }
-
 
 /* Completa tu pedido en línea y nos comunicaremos contigo para confirmar tu órden */
 /* O escribenos al whatsapp y tomaremos tu pedido */
@@ -266,9 +267,8 @@ h2 {
   font-size: 20px;
 }
 
-/*PRECIO*/
 .precio{
-  color: #6ABC73;
+  color:green;
 }
 
 /* CATERING */
