@@ -16,6 +16,13 @@ body {
   color: #fff;
 }
 
+.home-background2{
+  position: relative;
+  background-image: url('buffet.jpg');
+  
+  
+}
+
 /* NUESTRO MENÚ */
 .menu-container{
   padding: 40px;
@@ -284,4 +291,10 @@ h2 {
   line-height: 49px;
 /* identical to box height */
   color: #FFFFFF;
+}
+
+.cartitas{
+
+  color: white;
+  position: absolute;
 }
