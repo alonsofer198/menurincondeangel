@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400&display=swap');
 
-
-
 body {
   font-family: 'Londrina Solid', cursive;
+}
+
+.title-page {
+  display: block;
+  width: 320px;
+  margin: 0 auto;
+  font-size: 5em;
+  text-align: center;
+  line-height: 1em;
+}
+
+.contenido-home {
+  position: relative;
+  padding: 10vh 0 5vh 0;
 }
 
 .home-background {
   position: relative;
   background-image: url('local.jpeg');
-  min-height: 90vh;
+  background-color: #000;
+  min-height: 720px;
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19,8 +33,6 @@ body {
 .home-background2{
   position: relative;
   background-image: url('buffet.jpg');
-  
-  
 }
 
 /* NUESTRO MENÚ */
@@ -48,13 +60,18 @@ body {
 
 }
 
+.navbar {
+  padding: 15px;
+  border-bottom: solid 1px #D7425E;
+}
+
 .nav-link {
-  color: #fff !important;
-    
+  color: #D7425E !important;
+  font-size: 19px;    
 }
 
 .nav-link.active {
-  background: #45c2d6b0;
+  background: #D7425E;
   color: #fff !important;
   
 }
@@ -64,13 +81,16 @@ body {
 /* banner home */
 
 .banner-home {
-  position: absolute;
-  right: 25px;
-  top: 35vh;
-  width: 300px;
+  width: 560px;
+  margin: 0 auto;
   padding: 10px;
-  background: #45c2d6b0;
   text-align: center;
+}
+
+.banner-home div {
+  font-weight: 300;
+  font-size: 21px;
+  margin-bottom: 10px;
 }
 
 .banner-menu {
@@ -90,17 +110,13 @@ body {
 
 h2 {
   position:relative;
-  height: 49px;
   font-family: Londrina Solid;
-  font-style: normal;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 41px;
   line-height: 49px;
- /* identical to box height */
   text-align:center;
-  color: #4BB072;
-  padding-bottom: 45px;
-  padding-top: 45px;
+  padding-bottom: 25px;
+  padding-top: 25px;
   
 }
 
@@ -112,27 +128,27 @@ h2 {
 
 /*BOTONES*/
 /* BOTON AZUL */
-.primerboton{
+.primerboton {
+  display: inline-block;
+  margin: 15px 0;
+  font-weight: 400;
   position:relative;
   color:white;
-  width: 193px;
-  height: 45px;
-  background: #18667E;
+  background: #D7425E;
   border:none;
-  border-radius: 15px;
-  
+  border-radius: 10px;
+  text-decoration: none;
  }
 
 /* BOTON VERDE */
 .segundoboton{
+  display: inline-block;
   position:relative;
   color:white;
-  width: 193px;
-  height: 45px;
-  background: #60B882;
+  background: #515151;
   border: none;
-  border-radius: 15px;
-
+  border-radius: 10px;
+  text-decoration: none;
  }
 
  /* BOTON PLOMO */
@@ -148,7 +164,7 @@ h2 {
   position: relative;
   width: 130px;
   height: 40px;
-  background-color: #D6664D;
+  background-color: #D7425E;
   text-align: center;
 }
 
@@ -157,7 +173,7 @@ h2 {
   position: relative;
   width: 234px;
   height: 41px;
-  background-color: #D6664D;
+  background-color: #D7425E;
   text-align: center;
 }
 
@@ -184,14 +200,13 @@ h2 {
 .textos{
   position: relative;
   height: 50px;
-
   font-family: Londrina Solid;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 300;
   font-size: 21px;
   line-height: 25px;
   text-align: center;
-  color: #4BB072;
+  color: #FD9500;
 }
 
 .textos1{
@@ -208,7 +223,7 @@ h2 {
   font-size: 50px;
   line-height: 25px;
   text-align: center;
-  color: #D6664D;
+  color: #D7425E;
   ;
 }
 
@@ -252,18 +267,22 @@ h2 {
   line-height: 25px;
   text-align: center;
   color:white;
-  background:  #4BB072;
+  background:  #FD9500;
 }
 
 
 /*PROMOCIONES*/
 
 .promociones{
-  background: #49B45A;
+  background: #d7425db5;
   padding: 41px;
   text-align: center;
-  
-  
+  font-weight: 300;
+}
+
+.promociones h6{
+  font-weight: 300;
+  font-size: 18px;
 }
 
 .promo{
