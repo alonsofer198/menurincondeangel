@@ -8,7 +8,7 @@ body {
 
 .home-background {
   position: relative;
-  background-image: url('https://img1.wsimg.com/isteam/stock/6QmDeDe');
+  background-image: url('tartaleta.jpeg');
   min-height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@ body {
 .menu-container{
   padding: 40px;
   position: relative;
-  background-image: url('fondo.jpeg');
+  background-image: url('copadulce.jpeg');
   min-height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,7 +39,7 @@ body {
 .catering-container{
   padding: 40px;
   position: relative;
-  background-image: url('fondo2.jpeg');
+  background-image: url('local.jpeg');
   min-height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
