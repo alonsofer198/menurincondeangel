@@ -9,6 +9,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
     <link href="main.css" rel="stylesheet" />
 
     
@@ -20,7 +22,7 @@
   </head>
 </body>
         <!-- Navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light ">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-navbar">
           <a class="navbar-brand" href="/">
             <img src="logo.png" width="50px" alt="Dulce Pecado" />
           </a>
@@ -33,7 +35,17 @@
                 <a class="nav-link " aria-current="page" href="index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="carta.html">Carta</a>
+                <a class="nav-link active" href="carta.html"><?xml version="1.0" encoding="utf-8"?>
+                  <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                  <svg fill="#FFFFFF" width="25" height="25" version="1.1" id="lni_lni-notepad" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                     y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+                  <path d="M51.4,4.2c-1.6-1.6-3.6-2.4-5.8-2.4h-24c-3.4,0-6.3,2.8-6.3,6.3v3.9h-2.8c-1.2,0-2.3,1-2.3,2.3s1,2.3,2.3,2.3h2.8v13.3h-2.8
+                    c-1.2,0-2.3,1-2.3,2.3c0,1.2,1,2.3,2.3,2.3h2.8v13.3h-2.8c-1.2,0-2.3,1-2.3,2.3s1,2.3,2.3,2.3h2.8V56c0,3.4,2.8,6.3,6.3,6.3h24
+                    c4.5,0,8.2-3.7,8.3-8.2l0-44C53.8,7.8,53,5.7,51.4,4.2z M49.3,54c0,2.1-1.7,3.7-3.8,3.7h-24c-1,0-1.8-0.8-1.8-1.8v-3.9h5.4
+                    c1.2,0,2.3-1,2.3-2.3s-1-2.3-2.3-2.3h-5.4V34.3h5.4c1.2,0,2.3-1,2.3-2.3c0-1.2-1-2.3-2.3-2.3h-5.4V16.4h5.4c1.2,0,2.3-1,2.3-2.3
+                    s-1-2.3-2.3-2.3h-5.4V8c0-1,0.8-1.8,1.8-1.8h24c1,0,1.9,0.4,2.7,1.1c0.7,0.7,1.1,1.7,1.1,2.7L49.3,54z"/>
+                  </svg>
+                  Carta</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="servicios.html">Servicios</a>
@@ -66,52 +78,70 @@
           </div>
 
           <div class="col-3 ">
-            <div class="promo">
-              <div>JUEVES</div>
-              <div>CHUPE DE PESCADO</div>
-              <div>+</div>
-              <div>PESCADO FRITO C/ ARROZ Y YUCA</div>
-              <div>+</div>
-              <div>CHICHA MORADA</div>
-              <div class="precio">S/.12.00</div>
+            <div class="card" style="width: 18rem;">
+              <img src="fresa.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">S/. 6.00</p>
+              </div>
             </div>
           </div> 
             
          <div class="col-3">
-            <div class="promo">
-              <div>JUEVES</div>
-              <div>AGUADITO DE PESCADO</div>
-              <div>+</div>
-              <div>LOMO DE PESCADO</div>
-              <div>+</div>
-              <div>CHICHA MORADA</div>
-              <div class="precio">S/.12.00</div>
-            </div>    
+          <div class="card" style="width: 18rem;">
+            <img src="durazno.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">TARTALETA DE DURAZNO</p>
+            </div>
+          </div>
          </div>
 
           <div class="col-3">
-            <div class="promo">
-              <div>VIERNES</div>
-              <div>AGUADITO DE PESCADO</div>
-              <div>+</div>
-              <div>LOMO DE PESCADO</div>
-              <div>+</div>
-              <div>CHICHA MORADA</div>
-              <div class="precio">S/.12.00</div>
+            <div class="card" style="width: 18rem;">
+              <img src="durazno.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">TARTALETA DE DURAZNO</p>
+              </div>
             </div>  
           </div>    
             
         </div>  
         
-        <div class="mt-5 textos"><button class="tercerboton">VER TODA LA CARTA</button></div>
+        <div class="mt-5 textos"><button class="tercerboton p-2">VER TODA LA CARTA</button></div>
 
       </div>
       
     </div>
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="collage.jpg" class="d-block w-100 img-fluid m-3" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="collage2.jpg" class="d-block w-100 img-fluid m-3" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="tortas.jpg" class="d-block w-100 img-fluid m-3" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
     <div class="container-fluid carta-container">
         <div class="container">
-          <h2 class="textos2">HECHO COMO EN CASA</h2>
+          <h2 class="textos2 mb-5">HECHO COMO EN CASA</h2>
 
           <div class="textos3">Nos esforzamos al máximo para brindar un servicio de calidad a todos nuestros clientes.</div>
           <div class="textos3">Conoce nuestra variada de postres.</div>
@@ -125,38 +155,7 @@
         
         <div class="mt-5 textos">
           <button class="quintoboton">VER TODOS LOS POSTRES</button>  
-        </div>
-          
-
-        
-        
+        </div>  
     </div>
-
-    <div class="container-fluid catering-container">
-      <div class="container">
-        
-        <h2 class="catering">CATERING</h2>
-      
-
-      </div>	
-
-          <div class="container">
-            <div class="textos4"> Nos esforzamos al máximo para brindar un servicio de calidad a todos nuestros clientes.</div>
-            <div class="textos4">Conoce nuestra variada selecciones de platos.</div>
-
-            
-          </div>  
-
-          <div class="mt-5 textos">
-            <button class="sextoboton">CONTACTANOS</button>  
-          </div>
-
-
-    </div> 
-
-    
-
-
-
-
   </html>
+
